@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#collegeWord {
+    width: 300px;
+}
+
+.topNav {
+    display: flex;
+    position: relative;
+    left: 150px;
+}
+
+.topNav ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    background-color: #2A0082;
+    border-radius: 0px 0px 0px 30.0948px;
+    padding: 20px;
+    padding-right: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    color: white;
+    padding-right: 400px;
+}
+
+.topNav ul li {
+    cursor: pointer;
+}
+
+.topNavLink {
+    color: white;
+    text-decoration: none;
+}
+
+.topNavSearch {
+    position: absolute;
+    left: 850px;
+}
+
+.bottomNavTable ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    gap: 30px;
+    padding-top: 30px;
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 175px;
+    top: 10px;
+}
+
+.bottomNavLink {
+    text-decoration: none;
+    color: black;
+}
+
+.bottomNavList {
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+}
+
+.heroBG {
+    position: absolute;
+}
+
+.heroButton {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    top: 450px;
+    gap: 80px;
+    margin: 20px;
+    left: 120px;
+}
+
+.heroButton button {
+    padding: 20px 30px;
+    background-color: #2A0082;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.heroButtonSociety button {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.heroButtonEvent button {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.studentPortal {
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 2px solid #D9D9D9;
+    border-radius: 30px;
+    left: 250px;
+    top: 120px;
+}
+
+.studentPortal {
+    -webkit-animation-name: studentPortal;
+    animation-name: studentPortal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes studentPortal {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes studentPortal {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.studentPortalTitle {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    left: 90px;
+}
+
+.studentPortalTitle h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+.studentPortalTitle h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.studentPortalRegister h4 {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 275px;
+    top: 160px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+
+.studentPortalForm {
+    position: absolute;
+}
+
+.studentPortalFormName input {
+    position: absolute;
+    top: 205px;
+    left: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.studentPortalFormRegistration input {
+    position: absolute;
+    top: 205px;
+    left: 255px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.studentPortalFormEmail input {
+    position: absolute;
+    top: 255px;
+    left: 20px;
+    padding: 10px 25px;
+    padding-right: 260px;
+    border: none;
+    border-radius: 10px;
+}
+
+.studentPortalFormMobile input {
+    position: absolute;
+    top: 305px;
+    left: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.studentPortalFormPassword input {
+    position: absolute;
+    top: 305px;
+    left: 255px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.studentPortalFormLogin button {
+    position: absolute;
+    top: 400px;
+    left: 115px;
+    padding: 10px 45px;
+    background-color: #2A0082;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.studentPortalFormSignup a {
+    position: absolute;
+    top: 400px;
+    left: 255px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    width: 120px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.studentPortalNote h4 {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    top: 360px;
+    left: 22px;
+}
+
+.herodescription h4 {
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 1000px;
+    right: 690px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+}
+
+.aboutTheCSE {
+    width: 100%;
+    height: 900px;
+    background-color: #170047;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutTheCSETitle h2 {
+    color: white;
+    position: relative;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    top: 520px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.aboutTheCSESummary p {
+    position: absolute;
+    color: white;
+    top: 1300px;
+    font-size: 20px;
+    left: 490px;
+    text-align: center;
+    font-weight: 10;
+    word-spacing: 8px;
+    line-height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weLearn {
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 750px;
+}
+
+.weLearnTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weLearnImg {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    background-color: #170047;
+    width: 100%;
+    height: 850px;
+}
+
+.newsAndEventTitle {
+    display: flex;
+    position: absolute;
+    color: white;
+    gap: 480px;
+    left: 520px;
+    margin-top: 80px;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.newAndEventImg {
+    padding-top: 130px;
+    padding-left: 250px;
+
+}
+
+.facultyProfileImg {
+    position: relative;
+    right: 40px;
+}
+
+.awareTopicImg {
+    position: relative;
+    right: 40px;
+}
+
+.footerImg {
+    display: flex;
+}

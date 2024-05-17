@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#collegeWord {
+    width: 300px;
+}
+
+.topNav {
+    display: flex;
+    position: relative;
+    left: 150px;
+}
+.topNav ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    background-color: #2A0082;
+    border-radius: 0px 0px 0px 30.0948px;
+    padding: 20px;
+    padding-right: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    color: white;
+    padding-right: 400px;
+}
+
+.topNav ul li {
+    cursor: pointer;
+}
+
+.topNavLink {
+    color: white;
+    text-decoration: none;
+}
+
+.topNavSearch{
+    position: absolute;
+    left: 850px;
+}
+
+.bottomNavTable ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    gap: 30px;
+    padding-top: 30px;
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 175px;
+    top: 10px;
+}
+
+.bottomNavLink {
+    text-decoration: none;
+    color: black;
+}
+
+.bottomNavList {
+    cursor: pointer;
+}
+
+.aboutUsBG{
+    width: 100%;
+    height: 1000px;
+    background-color: #170047;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.aboutUs {
+    -webkit-animation-name: aboutUs;
+    animation-name: aboutUs;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes aboutUs {
+    0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+    }
+    60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+    }
+    75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+    }
+    90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+    }
+    100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    }
+    }
+    @keyframes aboutUs {
+    0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+    }
+    60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+    }
+    75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+    }
+    90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+    }
+    100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    }
+}
